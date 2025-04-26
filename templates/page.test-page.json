@@ -1,12 +1,10 @@
-
 {
-    "sections": {
-        "header": {
-            "type": "header-section",
-            "settings": {}
-        },
-    },
-    "order": [
-        "header",
-    ]
+  "sections": {
+    "header": {
+      "type": "header-section"
+    }
+  },
+  "order": [
+    "header"
+  ]
 }
