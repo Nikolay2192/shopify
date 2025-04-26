@@ -1,8 +1,5 @@
 <div class="header" style="background-color: {{ settings.background-color }}; color: black;">
-    <h1 style="color: green">{{ settings.title }}Test Text</h1>
-    <ul>
-        
-    </ul>
+    <h1 style="color: {{ settings.text-color }}">{{ settings.title }}Test Text</h1>
 </div>
 
 
@@ -22,6 +19,12 @@
         "label": "Background Color",
         "id": "background-color",
         "default": "#943737",
+        },
+        {
+        "type": "color",
+        "label": "Text Color",
+        "id": "text-color",
+        "default": "#000000",
         }
     ]
 }
