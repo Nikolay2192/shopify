@@ -1,0 +1,29 @@
+<div class="header" style="background-color: {{ settings.background-color }}">
+    <h1>{{ settings.title }}</h1>
+    <ul>
+        
+    </ul>
+</div>
+
+
+{% schema %}
+
+{
+    "name": "Header",
+    "settings": [
+        {
+        "type": "text",
+        "label": "Title",
+        "id": "title",
+        "default": "Custom title"
+        },
+        {
+        "type": "color",
+        "label": "Background Color",
+        "id": "background-color",
+        "default": "#FFFFFF",
+        }
+    ]
+}
+
+{% endschema %}
