@@ -1,0 +1,26 @@
+.banner-section {
+    display: flex;
+    color: white;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section__heading {
+    color: white;
+    font-size: 32px;
+}
+
+.banner-section__description {
+    font-size: 16px;
+}
+
+.banner-section__link {
+    color: red;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+    
+}
+
