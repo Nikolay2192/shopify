@@ -1,4 +1,4 @@
-<section class="banner-section">
+<section class="banner-section" style="background-color: {{ section.settings.section_background }}">
   <h2 class="banner-section__heading" style="color: {{ section.settings.heading_color }}">
     {{ section.settings.heading }}
   </h2>
@@ -6,7 +6,7 @@
     {{ section.settings.description }}
   </p>
   <a class="banner-section__link" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
-  {% if section.banner_image %}
+  {% if section.settings.banner_image %}
     <img src="{{ section.settings.banner_image | asset_url }}" width="120px" height="120px">
   {% else %}
     <img src="{{ 'default_image.jpg' | asset_url }}" width="120px" height="120px">
